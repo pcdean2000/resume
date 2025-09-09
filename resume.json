@@ -1,0 +1,200 @@
+{
+    "meta": {
+        "theme": "kendall"
+    },
+    "basics": {
+        "name": "Edgar Hsieh",
+        "label": "AI Networking Engineer",
+        "picture": "https://media.licdn.com/dms/image/v2/C4E03AQEhOK6aDXc9PA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535696153320?e=1759968000&v=beta&t=LujIparPIh7gtIzUOHhsvmibAZwSvyzyN4WY4yGoclM",
+        "email": "edgar.kl.hsieh@gmail.com",
+        "phone": "(886) 967028013",
+        "website": "",
+        "summary": "AI Networking Engineer with three published studies on AI-driven network security, specializing in intelligent threat detection and resilient system design.",
+        "location": {
+            "address": "Park Road",
+            "postalCode": "244013",
+            "city": "Linkou Dist.",
+            "countryCode": "TW",
+            "region": "New Taipei"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Edgar",
+                "url": "https://www.linkedin.com/in/edgar-b0962a117"
+            },
+            {
+                "network": "GitHub",
+                "username": "Edgar",
+                "url": "https://github.com/pcdean2000"
+            }
+        ],
+        "url": "https://www.linkedin.com/in/edgar-b0962a117/",
+        "image": "https://media.licdn.com/dms/image/v2/C4E03AQEhOK6aDXc9PA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1535696153561?e=1759968000&v=beta&t=JJ52hIm-_cDk8qOapvZM_93Hbt57OG6sKkaWRf8XyCI"
+    },
+    "work": [
+        {
+            "company": "Edison Electric Light Company",
+            "position": "Assistant Engineer",
+            "website": "https://edison.com",
+            "startDate": "2023-04-01",
+            "endDate": "2024-07-31",
+            "summary": "Assist in technical research, prototype development, documentation, and cross-functional collaboration to support innovative engineering projects and knowledge transfer.",
+            "highlights": [
+                "Designed an AI-controlled thermal regulation module for immersion cooling systems.",
+                "Proposed a multi-gateway system patent for mobile devices.",
+                "Completed a technology transfer of an O-RAN virtualization solution.",
+                "Participated simulation analysis for a satellite networking project."
+            ],
+            "name": "ITRI",
+            "location": "Hsinchu, TW",
+            "url": "https://www.itri.org.tw/"
+        },
+        {
+            "company": "General Electric",
+            "position": "Intern",
+            "website": "https://ge.com",
+            "startDate": "2022-04-01",
+            "endDate": "2023-03-31",
+            "summary": "Assisted in data preprocessing, technical documentation, simulation analysis, and AI model testing as a part-time research assistant at ITRI.",
+            "highlights": [
+                "Proposed a carbon footprint calculation framework for data centers.",
+                "Delivered an O-Cloud platform as the annual technology showcase.",
+                "Implemented a high-availability (HA) mechanism for an O-RAN virtualization project.",
+                "Developed an AI-based thermal control model for data center environments."
+            ],
+            "name": "ITRI",
+            "location": "Hsinchu, TW",
+            "url": "https://www.itri.org.tw/"
+        },
+        {
+            "name": "National Chi-Nan University",
+            "position": "Dormitory Network Infrastructure Coordinator",
+            "startDate": "2016-09-01",
+            "endDate": "2022-03-31",
+            "location": "Nantou, TW",
+            "url": "https://www.ncnu.edu.tw/",
+            "summary": "Led a team responsible for maintaining and troubleshooting the dormitory network infrastructure, including switch configuration and mitigating broadcast storms.",
+            "description": "",
+            "highlights": [
+                "Resolved a major broadcast storm caused by Ethernet looping through packet sniffing and port traffic analysis.",
+                "Managed 20 Juniper EX2200 switches with admin privileges.",
+                "Supported residents with network setup and troubleshooting."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Protocol Engineering and Application Research Laboratory",
+            "position": "Research Assistant",
+            "website": "https://menloparklab.com",
+            "startDate": "2019-09-01",
+            "endDate": "2022-03-31",
+            "summary": "Served as a Research Assistant supporting AI-driven network anomaly detection and technical documentation.",
+            "highlights": [
+                "Submitted 4 MOST research proposals; 2 funded, 1 rejected, 1 transferred before review.",
+                "Published 2 conference papers (TANET, ICJMEF)."
+            ],
+            "url": "https://ms15.voip.edu.tw/"
+        }
+    ],
+    "education": [
+        {
+            "institution": "National Chi-Nan University",
+            "area": "Computer Science and Information Engineering",
+            "studyType": "Ph.D. program",
+            "startDate": "2019-09-01",
+            "endDate": "2026-01-31",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "National Chi-Nan University",
+            "area": "Computer Science and Information Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2015-09-01",
+            "endDate": "2019-06-30",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [
+        {
+            "name": "On the Selection of Statistical Feature Set of NetFlow Data for Operating System Identification",
+            "publisher": "Computer Networks",
+            "releaseDate": "2025-12",
+            "url": "https://drive.google.com/open?id=1FSAoZkR6pBa164uPMHJPlXnWhrkoaK5P&usp=drive_fs",
+            "summary": "This study demonstrates that fundamental NetFlow features—such as link quantity, TCP port usage, and connection duration—can significantly enhance OS type detection, achieving a 10% F1 score improvement and 29.86% faster training time using SHAP-selected attributes while challenging the reliability of traditionally favored features like TTL."
+        },
+        {
+            "name": "Netflow-based Operating System Identification Using Machine Learning",
+            "publisher": "JICV",
+            "releaseDate": "2025-05",
+            "url": "https://drive.google.com/open?id=1CPxtjnuGvlcyt7KsURfazEATYdk3D-gu&usp=drive_fs",
+            "summary": "This study examines the feasibility of utilizing basic NetFlow attributes for OS type detection, showing that metrics such as link count, TCP port usage, and connection duration can enhance balanced accuracy by 8% compared to traditional methods while maintaining cost-effectiveness."
+        },
+        {
+            "name": "Network Anomaly Detection Based on NetFlow Time Series Data in aHealthcare Network Environment",
+            "publisher": "APAMI",
+            "releaseDate": "2022-10-14",
+            "url": "https://drive.google.com/open?id=1SW4-lSYLXFiR_oKt3vPjbKVa7BbVMXvT&usp=drive_fs",
+            "summary": "This research introduces a time-series-based feature design and multi-factor clustering approach to detect anomalous network nodes by leveraging temporal similarity and data correlation."
+        },
+        {
+            "name": "基於 NetFlow 時間序列資料之網路異常行為偵測",
+            "publisher": "IJCMEF",
+            "releaseDate": "2022-07-02",
+            "url": "https://drive.google.com/open?id=1BZ-Bu2PJ8UapH99sLywo8zeG64RrhsgA&usp=drive_fs",
+            "summary": "This study transforms packet flow data into time-series feature vectors and applies a multi-factor cumulative clustering algorithm to identify anomalous nodes based on temporal similarity and data correlation."
+        },
+        {
+            "name": "SimpleSync: A Better Solution of Synchronization on NDN",
+            "publisher": "TANET",
+            "releaseDate": "2018",
+            "website": "https://scientificamerican.com",
+            "summary": "A paper detailing the development and impact of the packet synchronization method on NDN.",
+            "url": "https://drive.google.com/open?id=1-Pnxk5X0bVvBVoOd5W0CKJU9VdXaiU9V&usp=drive_fs"
+        }
+    ],
+    "skills": [
+        {
+            "name": "AI Agent",
+            "level": "Intermediate",
+            "keywords": [
+                "Fine-Tuning",
+                "RAG",
+                "MCP"
+            ]
+        },
+        {
+            "name": "Virtualization",
+            "level": "Intermediate",
+            "keywords": [
+                "Kubernetes",
+                "High Availability",
+                "Automation"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Chinese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Research and Development",
+            "keywords": [
+                "Innovations",
+                "Experimentation"
+            ]
+        }
+    ],
+    "references": []
+}
