@@ -18,7 +18,7 @@ usage() {
 # Parse command-line options
 while [[ "$#" -gt 0 ]]; do
     case $1 in
-        -f)
+        -f|--format)
             if [[ "$2" == "pdf" || "$2" == "html" ]]; then
                 FORMAT="$2"
                 shift
@@ -27,7 +27,7 @@ while [[ "$#" -gt 0 ]]; do
                 exit 1
             fi
             ;;
-        -t)
+        -t|--theme)
             THEME="$2"
             shift
             ;;
