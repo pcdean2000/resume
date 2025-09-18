@@ -9,7 +9,7 @@
         "email": "edgar.kl.hsieh@gmail.com",
         "phone": "(886) 967028013",
         "website": "",
-        "summary": "AI Networking Engineer with three published studies on AI-driven network security, specializing in intelligent threat detection and resilient system design.",
+        "summary": "AI Networking Engineer with five published studies on network security and data synchronization. Specializing in intelligent threat detection and resilient system design, I am seeking to apply my research and development skills to solve complex network infrastructure challenges.",
         "location": {
             "address": "Park Road",
             "postalCode": "244013",
@@ -34,38 +34,52 @@
     },
     "work": [
         {
-            "company": "Edison Electric Light Company",
+            "company": "Industrial Technology Research Institute",
             "position": "Assistant Engineer",
-            "website": "https://edison.com",
+            "website": "https://www.itri.org.tw/",
             "startDate": "2023-04-01",
             "endDate": "2024-07-31",
-            "summary": "Assist in technical research, prototype development, documentation, and cross-functional collaboration to support innovative engineering projects and knowledge transfer.",
+            "summary": "Leading R&D projects in AI-driven thermal control, high-availability network design, O-RAN virtualization, and satellite network architecture simulation at ITRI.",
             "highlights": [
-                "Designed an AI-controlled thermal regulation module for immersion cooling systems.",
-                "Proposed a multi-gateway system patent for mobile devices.",
-                "Completed a technology transfer of an O-RAN virtualization solution.",
-                "Participated simulation analysis for a satellite networking project."
+                "AI-Driven Thermal Control Module Development: To address the power consumption and thermal challenges in an all-in-one immersion cooling system for O-RAN base stations, I led the development of an AI-powered thermal prediction module. By integrating sensor data via Zabbix and Modbus and utilizing an LSTM forecaster model, the power prediction model achieved 99% accuracy with only six months of data.",
+                "High-Availability Network Patent Proposal: Proposed a multi-gateway seamless switching system patent to solve connection interruption issues for mobile devices switching between base stations, Wi-Fi, and satellite networks. The design combines VPN Tunnelling, SDN, and MPTCP principles to ensure zero service interruption for upper-layer applications during underlying route changes.",
+                "O-RAN Virtualization Solution Technology Transfer: Solely managed a technology transfer project for HTC to build their O-RAN virtualization capabilities. I was singularly responsible for implementation, achieving all four KPI scenarios, authoring a 30+ page technical document, conducting two training sessions, and providing a year of consulting. This successfully concluded a two-year-stalled project and prevented potential legal disputes for the institute.",
+                "Satellite Network Architecture Simulation & Validation: Validated the feasibility of our team's routing and architecture designs for a LEO satellite network project. Using SGP4 and a self-developed framework, my simulation analysis confirmed that the proposed architectures were upward-compatible across different satellite quantities, eliminating the need to reposition deployed satellites and significantly reducing future deployment costs and complexity."
             ],
             "name": "ITRI",
             "location": "Hsinchu, TW",
             "url": "https://www.itri.org.tw/"
         },
         {
-            "company": "General Electric",
+            "company": "Industrial Technology Research Institute",
             "position": "Intern",
-            "website": "https://ge.com",
+            "website": "https://www.itri.org.tw/",
             "startDate": "2022-04-01",
             "endDate": "2023-03-31",
-            "summary": "Assisted in data preprocessing, technical documentation, simulation analysis, and AI model testing as a part-time research assistant at ITRI.",
+            "summary": "Internship focused on developing high-availability mechanisms, carbon footprint frameworks, O-Cloud platforms, and AI-based thermal control models at ITRI.",
             "highlights": [
+                "High-Availability (HA) Mechanism Implementation: Designed and implemented an HA auto-recovery mechanism to meet Wiwynn's stringent system stability requirements for an O-RAN platform. By combining custom monitoring scripts with Kubernetes' three Probe mechanisms, the system was enabled to automatically restart during software failures or power interruptions, ensuring service continuity and preventing permanent outages.",
                 "Proposed a carbon footprint calculation framework for data centers.",
                 "Delivered an O-Cloud platform as the annual technology showcase.",
-                "Implemented a high-availability (HA) mechanism for an O-RAN virtualization project.",
                 "Developed an AI-based thermal control model for data center environments."
             ],
             "name": "ITRI",
             "location": "Hsinchu, TW",
             "url": "https://www.itri.org.tw/"
+        },
+        {
+            "name": "Protocol Engineering and Application Research Laboratory",
+            "position": "Research Assistant",
+            "website": "https://ms15.voip.edu.tw/",
+            "startDate": "2019-09-01",
+            "endDate": "2022-03-31",
+            "location": "Nantou, TW",
+            "summary": "Conducted research on network security and data synchronization, resulting in multiple published papers and funded proposals.",
+            "highlights": [
+                "Submitted 4 MOST research proposals; 2 funded, 1 rejected, 1 transferred before review.",
+                "Published 2 conference papers (TANET, ICJMEF)."
+            ],
+            "url": "https://ms15.voip.edu.tw/"
         },
         {
             "name": "National Chi-Nan University",
@@ -74,30 +88,16 @@
             "endDate": "2022-03-31",
             "location": "Nantou, TW",
             "url": "https://www.ncnu.edu.tw/",
-            "summary": "Led a team responsible for maintaining and troubleshooting the dormitory network infrastructure, including switch configuration and mitigating broadcast storms.",
+            "summary": "Managed and maintained the network infrastructure for a university dormitory housing 400+ students, ensuring reliable connectivity and prompt issue resolution.",
             "description": "",
             "highlights": [
-                "Resolved a major broadcast storm caused by Ethernet looping through packet sniffing and port traffic analysis.",
+                "Major Network Outage Resolution: Led the response to a critical broadcast storm that disrupted network services for approximately 200 students across two dormitory floors. Using Wireshark for systematic, layer-by-layer troubleshooting, we identified and resolved the network loop caused by improper cabling within 2 hours and coordinated the decommissioning of legacy equipment to prevent future incidents.",
                 "Managed 20 Juniper EX2200 switches with admin privileges.",
                 "Supported residents with network setup and troubleshooting."
             ]
         }
     ],
-    "volunteer": [
-        {
-            "organization": "Protocol Engineering and Application Research Laboratory",
-            "position": "Research Assistant",
-            "website": "https://menloparklab.com",
-            "startDate": "2019-09-01",
-            "endDate": "2022-03-31",
-            "summary": "Served as a Research Assistant supporting AI-driven network anomaly detection and technical documentation.",
-            "highlights": [
-                "Submitted 4 MOST research proposals; 2 funded, 1 rejected, 1 transferred before review.",
-                "Published 2 conference papers (TANET, ICJMEF)."
-            ],
-            "url": "https://ms15.voip.edu.tw/"
-        }
-    ],
+    "volunteer": [],
     "education": [
         {
             "institution": "National Chi-Nan University",
@@ -142,7 +142,7 @@
             "summary": "This research introduces a time-series-based feature design and multi-factor clustering approach to detect anomalous network nodes by leveraging temporal similarity and data correlation."
         },
         {
-            "name": "基於 NetFlow 時間序列資料之網路異常行為偵測",
+            "name": "基於 NetFlow 時間序列資料之網路異常行為偵測 (Network Anomaly Detection Based on NetFlow Time Series Data)",
             "publisher": "IJCMEF",
             "releaseDate": "2022-07-02",
             "url": "https://drive.google.com/open?id=1BZ-Bu2PJ8UapH99sLywo8zeG64RrhsgA&usp=drive_fs",
@@ -160,7 +160,7 @@
     "skills": [
         {
             "name": "AI Agent",
-            "level": "Intermediate",
+            "level": "",
             "keywords": [
                 "Fine-Tuning",
                 "RAG",
@@ -169,7 +169,7 @@
         },
         {
             "name": "Virtualization",
-            "level": "Intermediate",
+            "level": "",
             "keywords": [
                 "Kubernetes",
                 "High Availability",

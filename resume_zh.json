@@ -1,0 +1,200 @@
+{
+    "meta": {
+        "theme": "kendall"
+    },
+    "basics": {
+        "name": "謝坤霖",
+        "label": "AI 網路工程師",
+        "picture": "https://media.licdn.com/dms/image/v2/C4E03AQEhOK6aDXc9PA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1535696153320?e=1759968000&v=beta&t=LujIparPIh7gtIzUOHhsvmibAZwSvyzyN4WY4yGoclM",
+        "email": "edgar.kl.hsieh@gmail.com",
+        "phone": "(886) 967028013",
+        "website": "",
+        "summary": "AI 網路工程師，在網路安全與資料同步領域擁有五篇學術發表。專長為智慧威脅偵測與高韌性系統設計，致力於應用研發技能解決複雜的網路基礎設施挑戰。",
+        "location": {
+            "address": "公園路",
+            "postalCode": "244013",
+            "city": "林口區",
+            "countryCode": "TW",
+            "region": "新北市"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Edgar",
+                "url": "https://www.linkedin.com/in/edgar-b0962a117"
+            },
+            {
+                "network": "GitHub",
+                "username": "Edgar",
+                "url": "https://github.com/pcdean2000"
+            }
+        ],
+        "url": "https://www.linkedin.com/in/edgar-b0962a117/",
+        "image": "https://media.licdn.com/dms/image/v2/C4E03AQEhOK6aDXc9PA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1535696153561?e=1759968000&v=beta&t=JJ52hIm-_cDk8qOapvZM_93Hbt57OG6sKkaWRf8XyCI"
+    },
+    "work": [
+        {
+            "company": "工業技術研究院",
+            "position": "助理工程師",
+            "website": "https://www.itri.org.tw/",
+            "startDate": "2023-04-01",
+            "endDate": "2024-07-31",
+            "summary": "於工研院主導 AI 驅動溫控、高可用性網路設計、O-RAN 虛擬化及衛星網路架構模擬等研發專案。",
+            "highlights": [
+                "AI 驅動溫控模組開發：為解決 O-RAN 基站一體式浸沒冷卻系統的功耗與散熱挑戰，主導開發 AI 溫控預測模組。透過 Zabbix 與 Modbus 整合感測器數據，並採用 LSTM forecaster 模型進行訓練，僅用半年資料即達成功率預測模型 99% 的準確度。",
+                "高可用性網路專利提案：為解決行動裝置在基站、WiFi 與衛星網路間切換的連線中斷問題，提出一項多閘道無縫切換系統專利。此設計結合 VPN Tunnelling、SDN 與 MPTCP 技術，確保在底層路由切換時，上層應用服務不中斷。",
+                "O-RAN 虛擬化解決方案技術轉移：為協助 HTC 建立 O-RAN 虛擬化技術能力，獨立完成與其的技術轉移專案。單人負責實作、達成四大驗收情境 KPI、撰寫超過 30 頁的技術文件、舉辦 2 場教育訓練，並提供為期一年的技術諮詢，最終順利結束此延宕兩年的專案並為研究院免除潛在的法律糾紛。",
+                "衛星網路架構模擬與驗證：為驗證團隊設計的路由與架構可行性，在低軌衛星網路專案中使用 SGP4 及自研框架進行模擬分析。成功確立了不同衛星數量的網路架構具備向上相容性，使未來階段性建置星網時，無需調整已部署的衛星位置，大幅降低部署成本與複雜度。"
+            ],
+            "name": "工業技術研究院",
+            "location": "新竹，台灣",
+            "url": "https://www.itri.org.tw/"
+        },
+        {
+            "company": "工業技術研究院",
+            "position": "實習生",
+            "website": "https://www.itri.org.tw/",
+            "startDate": "2022-04-01",
+            "endDate": "2023-03-31",
+            "summary": "於工研院實習，專注於開發高可用性機制、碳足跡框架、O-Cloud 平台及 AI 溫控模型。",
+            "highlights": [
+                "高可用性 (HA) 機制導入：為滿足緯穎對 O-RAN 系統穩定性的要求，設計並實作了一套高可用性自動恢復機制。透過整合自研監控腳本與 Kubernetes 的三種 Probe 機制，確保系統在遭遇程式錯誤或電力中斷等故障時能自動重啟，保障服務不中斷。",
+                "提出資料中心的碳足跡計算框架。",
+                "交付 O-Cloud 平台作為年度技術展示。",
+                "開發用於資料中心環境的 AI 溫控模型。"
+            ],
+            "name": "工業技術研究院",
+            "location": "新竹，台灣",
+            "url": "https://www.itri.org.tw/"
+        },
+        {
+            "name": "協定工程與應用研究實驗室",
+            "position": "研究助理",
+            "website": "https://ms15.voip.edu.tw/",
+            "startDate": "2019-09-01",
+            "endDate": "2022-03-31",
+            "location": "南投，台灣",
+            "summary": "進行網路安全與資料同步相關研究，成功發表多篇論文並獲得研究計畫補助。",
+            "highlights": [
+                "提交 4 項國科會研究計畫；2 項獲補助，1 項被拒，1 項審查前轉移。",
+                "發表 2 篇研討會論文 (TANET, IJCMEF)。"
+            ],
+            "url": "https://ms15.voip.edu.tw/"
+        },
+        {
+            "name": "國立暨南國際大學",
+            "position": "宿舍網路管理員",
+            "startDate": "2016-09-01",
+            "endDate": "2022-03-31",
+            "location": "南投，台灣",
+            "url": "https://www.ncnu.edu.tw/",
+            "summary": "管理並維護可容納 400 名以上學生的宿舍網路基礎設施，確保連線穩定並即時解決問題。",
+            "description": "",
+            "highlights": [
+                "重大網路故障排除：在宿舍網路發生重大廣播風暴，導致兩層樓約 200 名學生服務中斷時，帶領團隊應對。利用 Wireshark 沿網路架構逐層排查，在 2 小時內成功定位並解決因網路電話線路誤接造成的迴圈問題，並協調下架廢棄設備以杜絕未來風險。",
+                "管理 20 台具備管理員權限的 Juniper EX2200 交換器。",
+                "協助住宿生進行網路設定與故障排除。"
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "國立暨南國際大學",
+            "area": "資訊工程學系",
+            "studyType": "博士班",
+            "startDate": "2019-09-01",
+            "endDate": "2026-01-31",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "國立暨南國際大學",
+            "area": "資訊工程學系",
+            "studyType": "學士",
+            "startDate": "2015-09-01",
+            "endDate": "2019-06-30",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [
+        {
+            "name": "基於 NetFlow 資料的統計特徵集篩選之作業系統識別方法研究 (On the Selection of Statistical Feature Set of NetFlow Data for Operating System Identification)",
+            "publisher": "Computer Networks",
+            "releaseDate": "2025-12",
+            "url": "https://drive.google.com/open?id=1FSAoZkR6pBa164uPMHJPlXnWhrkoaK5P&usp=drive_fs",
+            "summary": "本研究證明，基本的 NetFlow 特徵（如連線數、TCP 埠使用和連線持續時間）能顯著提升作業系統類型偵測的效能，使用 SHAP 篩選的特徵使 F1 分數提高 10%，訓練時間縮短 29.86%，同時挑戰了傳統上受青睞特徵（如 TTL）的可靠性。"
+        },
+        {
+            "name": "基於 NetFlow 與機器學習之作業系統識別 (Netflow-based Operating System Identification Using Machine Learning)",
+            "publisher": "JICV",
+            "releaseDate": "2025-05",
+            "url": "https://drive.google.com/open?id=1CPxtjnuGvlcyt7KsURfazEATYdk3D-gu&usp=drive_fs",
+            "summary": "本研究探討了利用基本 NetFlow 屬性進行作業系統類型偵測的可行性，結果表明，連線數、TCP 埠使用和連線持續時間等指標，與傳統方法相比，可在維持成本效益的同時將平衡準確率提高 8%。"
+        },
+        {
+            "name": "醫療物聯網環境中基於 NetFlow 時間序列資料之網路異常偵測 (Network Anomaly Detection Based on NetFlow Time Series Data in a Healthcare Network Environment)",
+            "publisher": "APAMI",
+            "releaseDate": "2022-10-14",
+            "url": "https://drive.google.com/open?id=1SW4-lSYLXFiR_oKt3vPjbKVa7BbVMXvT&usp=drive_fs",
+            "summary": "本研究提出一種基於時間序列的特徵設計和多因素聚類方法，利用時間相似性和數據關聯性來偵測異常網路節點。"
+        },
+        {
+            "name": "基於 NetFlow 時間序列資料之網路異常行為偵測",
+            "publisher": "IJCMEF",
+            "releaseDate": "2022-07-02",
+            "url": "https://drive.google.com/open?id=1BZ-Bu2PJ8UapH99sLywo8zeG64RrhsgA&usp=drive_fs",
+            "summary": "本研究將封包流資料轉換為時間序列特徵向量，並應用多因素累積聚類演算法，根據時間相似性和數據關聯性來識別異常節點。"
+        },
+        {
+            "name": "SimpleSync：NDN 上的更佳同步解決方案 (SimpleSync: A Better Solution of Synchronization on NDN)",
+            "publisher": "TANET",
+            "releaseDate": "2018",
+            "website": "https://scientificamerican.com",
+            "summary": "一篇詳細介紹 NDN 封包同步方法的開發過程與影響的論文。",
+            "url": "https://drive.google.com/open?id=1-Pnxk5X0bVvBVoOd5W0CKJU9VdXaiU9V&usp=drive_fs"
+        }
+    ],
+    "skills": [
+        {
+            "name": "AI Agent",
+            "level": "",
+            "keywords": [
+                "模型微調",
+                "RAG",
+                "MCP"
+            ]
+        },
+        {
+            "name": "虛擬化",
+            "level": "",
+            "keywords": [
+                "Kubernetes",
+                "高可用性",
+                "自動化"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "中文",
+            "fluency": "母語"
+        },
+        {
+            "language": "英文",
+            "fluency": "中等"
+        }
+    ],
+    "interests": [
+        {
+            "name": "研究與開發",
+            "keywords": [
+                "創新",
+                "實驗"
+            ]
+        }
+    ],
+    "references": []
+}
