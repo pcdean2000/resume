@@ -90,7 +90,7 @@
             "location": "Nantou, TW",
             "summary": "Conducted research on network security and data synchronization, resulting in multiple published papers and funded proposals.",
             "highlights": [
-                "Submitted 4 MOST research proposals; 2 funded, 1 rejected, 1 transferred before review.",
+                "Secured Research Funding: Co-authored and successfully secured MOST grants for two major research initiatives focusing on SDN architecture optimization and Anomaly Detection using Machine Learning, directly contributing to the lab's core research roadmap.",
                 "Published 2 conference papers (TANET, ICJMEF)."
             ],
             "url": "https://ms15.voip.edu.tw/"
@@ -105,9 +105,7 @@
             "summary": "Managed and maintained the network infrastructure for a university dormitory housing 400+ students, ensuring reliable connectivity and prompt issue resolution.",
             "description": "",
             "highlights": [
-                "Major Network Outage Resolution: Led the response to a critical broadcast storm that disrupted network services for approximately 200 students across two dormitory floors. Using Wireshark for systematic, layer-by-layer troubleshooting, we identified and resolved the network loop caused by improper cabling within 2 hours and coordinated the decommissioning of legacy equipment to prevent future incidents.",
-                "Managed 20 Juniper EX2200 switches with admin privileges.",
-                "Supported residents with network setup and troubleshooting."
+                "Major Network Outage Resolution: Led the response to a critical broadcast storm that disrupted network services for approximately 200 students across two dormitory floors. Using Wireshark for systematic, layer-by-layer troubleshooting, we identified and resolved the network loop caused by improper cabling within 2 hours and coordinated the decommissioning of legacy equipment to prevent future incidents."
             ]
         }
     ],
@@ -146,38 +144,33 @@
             "publisher": "Computer Networks",
             "releaseDate": "2025-11",
             "doi": "doi.org/10.1016/j.comnet.2025.111795",
-            "url": "https://www.sciencedirect.com/science/article/pii/S1389128625007613",
-            "summary": "This study demonstrates that fundamental NetFlow features—such as link quantity, TCP port usage, and connection duration—can significantly enhance OS type detection, achieving a 10% F1 score improvement and 29.86% faster training time using SHAP-selected attributes while challenging the reliability of traditionally favored features like TTL."
+            "url": "https://www.sciencedirect.com/science/article/pii/S1389128625007613"
         },
         {
             "name": "Netflow-based Operating System Identification Using Machine Learning",
             "publisher": "JICV",
             "releaseDate": "2025-05",
             "doi": "10.1007/s11416-025-00575-z",
-            "url": "https://doi.org/10.1007/s11416-025-00575-z",
-            "summary": "This study examines the feasibility of utilizing basic NetFlow attributes for OS type detection, showing that metrics such as link count, TCP port usage, and connection duration can enhance balanced accuracy by 8% compared to traditional methods while maintaining cost-effectiveness."
+            "url": "https://doi.org/10.1007/s11416-025-00575-z"
         },
         {
             "name": "Network Anomaly Detection Based on NetFlow Time Series Data in aHealthcare Network Environment",
             "publisher": "APAMI",
             "releaseDate": "2022-10-14",
-            "url": "https://drive.google.com/open?id=1SW4-lSYLXFiR_oKt3vPjbKVa7BbVMXvT&usp=drive_fs",
-            "summary": "This research introduces a time-series-based feature design and multi-factor clustering approach to detect anomalous network nodes by leveraging temporal similarity and data correlation."
+            "url": "https://drive.google.com/open?id=1SW4-lSYLXFiR_oKt3vPjbKVa7BbVMXvT&usp=drive_fs"
         },
         {
             "name": "基於 NetFlow 時間序列資料之網路異常行為偵測 (Network Anomaly Detection Based on NetFlow Time Series Data)",
             "publisher": "IJCMEF",
             "releaseDate": "2022-07-02",
-            "url": "https://drive.google.com/open?id=1BZ-Bu2PJ8UapH99sLywo8zeG64RrhsgA&usp=drive_fs",
-            "summary": "This study transforms packet flow data into time-series feature vectors and applies a multi-factor cumulative clustering algorithm to identify anomalous nodes based on temporal similarity and data correlation."
+            "url": "https://drive.google.com/open?id=1BZ-Bu2PJ8UapH99sLywo8zeG64RrhsgA&usp=drive_fs"
         },
         {
             "name": "SimpleSync: A Better Solution of Synchronization on NDN",
             "publisher": "TANET",
             "releaseDate": "2018",
             "website": "https://scientificamerican.com",
-            "summary": "A paper detailing the development and impact of the packet synchronization method on NDN.",
-            "url": "https://drive.google.com/open?id=1-Pnxk5X0bVvBVoOd5W0CKJU9VdXaiU9V&usp=drive_fs"
+            "summary": "A paper detailing the development and impact of the packet synchronization method on NDN."
         }
     ],
     "skills": [
@@ -220,15 +213,6 @@
         {
             "language": "English",
             "fluency": "Intermediate"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Research and Development",
-            "keywords": [
-                "Innovations",
-                "Experimentation"
-            ]
         }
     ],
     "references": []
